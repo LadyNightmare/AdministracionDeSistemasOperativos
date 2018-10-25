@@ -1,0 +1,16 @@
+101 Cálculo para la Computación 6
+305 Sistemas Operativos 6 
+403 Calidad del Software 7.5
+104 Matemáticas Discretas 12
+205 Métodos Numéricos 6
+106 Probabilidad y Estadística 7.5
+207 Análisis y Diseño de Algoritmos 9 
+108 Organización Empresarial 6
+401 Administración de Bases de Datos 7.5
+302 Programación Concurrente 6
+201 Tipos Abstractos de Datos 4.5
+402 Gestión de Proyectos 4.5
+303 Ingeniería de Requisitos 6
+406 Arquitectura de Computadores 9
+407 Procesadores de Lenguajes 7.5
+206 Programación Orientada a Objetos 6

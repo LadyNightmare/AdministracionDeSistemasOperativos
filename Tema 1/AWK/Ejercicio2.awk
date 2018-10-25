@@ -18,26 +18,34 @@ $1 !~ /^[[:digit:]]{8}[[:alpha:]]$/ {
 	print ">>> " $1;
 	next
 }
-$2 !~ /^[[:digit:]]{3,5}/ {
+$2 !~ /^[[:digit:]]{3,5}$/ {
 	printf "ERROR EN LA LÍNEA %d: El campo 2 no tiene formato de código de asignatura", NR;
-	print ">>> " $1;
+	print ">>> " $2;
 	next
 }
-$2 !~ /^(10(.0)?|[[:digit:]](.[[:digit:]]+)?/ {
+$3 !~ /^((10(.0+)?)|([[:digit:]](.[[:digit:]]+)?))$/ {
 	printf "ERROR EN LA LÍNEA %d: El campo 2 no es una calificación numérica correcta", NR;
-	print ">>> " $1;
+	print ">>> " $3;
 	next
 }
 {
-	alumno = $1
-	asignatura = $2
-	calificacion = $3
+	alumno = toupper($1);
+	asignatura = $2;
+	calificacion = $3;
 
-	if(listaNotas[asignatura, alumno]="") {
-		listaNotas[asignatura, alumno] = calificacion;
+	if(listaNotas[asignatura,alumno]=="") {
+		listaNotas[asignatura,alumno] = calificacion;
 		sumaAlumno[alumno] += calificacion;
 		asignaturasAlumno[alumno]++;
 	} else {
+		sumaAlumno[alumno] += calificacion - listaNotas[asignatura, alumno];
 		listaNotas[asignatura, alumno] = calificacion;
-		
-
+	}
+}
+END {
+	print"\nCALIFICACIONES MEDIAS:\n------------------------------------";
+	for(indice in sumaAlumno) {
+		media = sumaAlumno[indice]/asignaturasAlumno[indice];
+		printf "%s %s (%.1f)\n", indice, obtenerNota(media), media;
+	}
+}
