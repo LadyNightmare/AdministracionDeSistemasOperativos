@@ -1,0 +1,4 @@
+101 Cálculo para la Computación 6
+104 Matemáticas Discretas 12
+106 Probabilidad y Estadística 7.5
+108 Organización Empresarial 6

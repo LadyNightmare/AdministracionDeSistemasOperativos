@@ -1,0 +1,5 @@
+403 Calidad del Software 7.5
+401 Administración de Bases de Datos 7.5
+402 Gestión de Proyectos 4.5
+406 Arquitectura de Computadores 9
+407 Procesadores de Lenguajes 7.5

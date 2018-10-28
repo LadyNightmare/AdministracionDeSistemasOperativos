@@ -1,0 +1,4 @@
+205 Métodos Numéricos 6
+207 Análisis y Diseño de Algoritmos 9 
+201 Tipos Abstractos de Datos 4.5
+206 Programación Orientada a Objetos 6

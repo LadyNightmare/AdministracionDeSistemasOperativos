@@ -1,47 +1,29 @@
-function obtenerNota (calificacion) {
-	if(calificacion < 5)
-		return "SUSPENSO"
-	else if (calificacion < 7)
-		return "APROBADO"
-	else if (calificacion < 9)
-		return "NOTABLE"
-	else
-		return "SOBRESALIENTE"
-}
-!($1!="" && $2!="" && $3!="" && $4=="") {
-	printf"ERROR EN LA LÍNEA %d: Solo se admiten lineas formadas por tres campos", NR;
-	print ">>>" $0;
-	next
-}
-$1 !~ /^[[:digit:]]{8}[[:alpha:]]$/ {
-	printf "ERROR EN LA LÍNEA %d: El campo 1 no tiene formato de DNI válido", NR;
-	print ">>> " $1;
-	next
-}
-$2 !~ /^[[:digit:]]{3,5}/ {
-	printf "ERROR EN LA LÍNEA %d: El campo 2 no tiene formato de código de asignatura", NR;
-	print ">>> " $1;
-	next
-}
-$2 !~ /^(10(.0)?|[[:digit:]](.[[:digit:]]+)?/ {
-	printf "ERROR EN LA LÍNEA %d: El campo 2 no es una calificación numérica correcta", NR;
-	print ">>> " $1;
-	next
+BEGIN{
+system("rm curso*")
 }
 {
-	alumno = $1
-	asignatura = $2
-	calificacion = $3
 
-	if(listaNotas[asignatura, alumno]="") {
-		listaNotas[asignatura, alumno] = calificacion;
-		sumaAlumno[alumno] += calificacion;
-		asignaturasAlumno[alumno]++;
-	} else {
-		listaNotas[asignatura, alumno] = calificacion;
-		sumaAlumno[alumno] += calificacion - listaNotas[asignatura, alumno]
+	curso = substr($1,0,1);
+	creditos = $(NF);
+
+	if(curso == 1) {
+		print $0 >> "curso1.txt";
+		creditos1 += creditos;
+	} else if(curso == 2) {
+		print $0 >> "curso2.txt";
+		creditos2 += creditos;
+	} else if(curso == 3) {
+		print $0 >> "curso3.txt";
+		creditos3 += creditos;
+	} else if(curso == 4) {
+		print $0 >> "curso4.txt";
+		creditos4 += creditos;
 	}
+
 }
-END {
-	
+END{
+printf "Curso 1: %.1f créditos", creditos1;
+printf "\nCurso 2: %.1f créditos", creditos2;
+printf "\nCurso 3: %.1f créditos", creditos3;
+printf "\nCurso 4: %.1f créditos\n", creditos4;
 }
