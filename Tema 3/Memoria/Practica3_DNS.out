@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{Doc-Start}{\315ndice general}{}% 1
+\BOOKMARK [1][-]{section.1}{Modificaci\363n de /etc/bind/named.conf.local}{}% 2
+\BOOKMARK [1][-]{section.2}{Archivo de zona de b\372squeda directa \(.db\)}{}% 3
+\BOOKMARK [1][-]{section.3}{Archivo de zona de b\372squeda inversa}{}% 4
+\BOOKMARK [1][-]{section.4}{Configuraci\363n de servidor DNS}{}% 5
+\BOOKMARK [1][-]{section.5}{Uso de la DNS}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{Inicializaci\363n de la DNS}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{Comprobaci\363n del estado de la DNS}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.3}{Resoluci\363n de peticiones}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.4}{Apagado de la DNS}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.5}{Comprobaci\363n del estado de la DNS}{section.5}% 11

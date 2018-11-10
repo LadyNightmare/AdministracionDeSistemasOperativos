@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\IeC {\'I}ndice general}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}Modificaci\IeC {\'o}n de \textit {/etc/bind/named.conf.local}}{2}{section.1}
+\contentsline {section}{\numberline {2}Archivo de zona de b\IeC {\'u}squeda directa (.db)}{2}{section.2}
+\contentsline {section}{\numberline {3}Archivo de zona de b\IeC {\'u}squeda inversa}{3}{section.3}
+\contentsline {section}{\numberline {4}Configuraci\IeC {\'o}n de servidor DNS}{3}{section.4}
+\contentsline {section}{\numberline {5}Uso de la DNS}{3}{section.5}
+\contentsline {subsection}{\numberline {5.1}Inicializaci\IeC {\'o}n de la DNS}{3}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Comprobaci\IeC {\'o}n del estado de la DNS}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Resoluci\IeC {\'o}n de peticiones}{4}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Apagado de la DNS}{4}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Comprobaci\IeC {\'o}n del estado de la DNS}{5}{subsection.5.5}
