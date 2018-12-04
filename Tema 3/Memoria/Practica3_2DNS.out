@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{Doc-Start}{\315ndice general}{}% 1
+\BOOKMARK [1][-]{section.1}{Modificaci\363n de /etc/default/bind9}{}% 2
+\BOOKMARK [1][-]{section.2}{Creaci\363n de directorios necesarios para bind9}{}% 3
+\BOOKMARK [1][-]{section.3}{Movemos los ficheros de definici\363n de zonas}{}% 4
+\BOOKMARK [1][-]{section.4}{Creamos el enlace simb\363lico}{}% 5
+\BOOKMARK [1][-]{section.5}{Creamos /dev/null y /dev/random}{}% 6
+\BOOKMARK [1][-]{section.6}{Cambiamos el propietario}{}% 7
+\BOOKMARK [1][-]{section.7}{Cambiamos los permisos}{}% 8
+\BOOKMARK [1][-]{section.8}{Editamos el archivo rsyslog}{}% 9
+\BOOKMARK [1][-]{section.9}{Iniciamos bind y comprobamos su estado}{}% 10
+\BOOKMARK [1][-]{section.10}{Comprobamos su funcionamiento}{}% 11

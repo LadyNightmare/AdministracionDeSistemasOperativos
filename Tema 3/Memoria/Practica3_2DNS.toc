@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\IeC {\'I}ndice general}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}Modificaci\IeC {\'o}n de \textit {/etc/default/bind9}}{2}{section.1}
+\contentsline {section}{\numberline {2}Creaci\IeC {\'o}n de directorios necesarios para bind9}{2}{section.2}
+\contentsline {section}{\numberline {3}Movemos los ficheros de definici\IeC {\'o}n de zonas}{2}{section.3}
+\contentsline {section}{\numberline {4}Creamos el enlace simb\IeC {\'o}lico}{2}{section.4}
+\contentsline {section}{\numberline {5}Creamos \textit {/dev/null} y \textit {/dev/random}}{2}{section.5}
+\contentsline {section}{\numberline {6}Cambiamos el propietario}{2}{section.6}
+\contentsline {section}{\numberline {7}Cambiamos los permisos}{2}{section.7}
+\contentsline {section}{\numberline {8}Editamos el archivo \textit {rsyslog}}{3}{section.8}
+\contentsline {section}{\numberline {9}Iniciamos bind y comprobamos su estado}{3}{section.9}
+\contentsline {section}{\numberline {10}Comprobamos su funcionamiento}{3}{section.10}
