@@ -1,0 +1,95 @@
+		
+		body{   background-color : #FFFFFF;
+			color: #000080;
+			font-family : Arial;
+			font-size : 9pt;
+			text-align : left;
+			cursor:default;       }
+			
+		h1 {	 color : #900060;  
+			 text-transform:uppercase; 
+			 font-size :13pt;
+			 text-align : center;
+			 line-height : 0em;}
+			 	 
+		table { 
+		     
+			 text-align: left; 
+			 border-style:none; 
+			 border-width:2px;
+			 font-size : 9pt;
+			 border-color:#603090; 
+			  } 	  
+		
+		table.campo { 
+				
+		   background-color:transparent; 
+			 text-align: left;
+			 border-style:none;
+			 border-width:0px;
+			}
+			 	 	 
+
+ 
+       	td{ 
+		     border-style:none; 
+		     margin-top:0;
+		 	margin-bottom:0;
+			 margin-left:0;
+			 margin-right:0;
+
+		         }
+
+
+
+	tr{ 
+		     border-style:solid; 
+		     margin-top:0;
+		 	margin-bottom:0;
+			 margin-left:0;
+			 margin-right:0;
+			 border-width:1px;
+
+		         }
+
+
+		 		 
+       td.leyenda{ 
+ 		     background-color : #000080;
+		     color: #A9D2F3;
+		     border-style:solid; 
+		      text-align:center;
+		      text-align:center;
+  			font-weight: bolder; 
+		 } 
+
+
+	td.dato{	height:10px;
+			color: #000080;
+			font-size : 8pt;
+			 background-color:efefff;
+		         border-style:none ; 
+			 border-width:0in 
+		}
+
+
+	input.campanias{
+		     width:71px;
+		     height:38px;			     	
+			 background-color:transparent;
+			 background-image:url('campanias.bmp');
+			 background-repeat:no-repeat;
+	  		 text-align:center;
+             		border-style: none;     			 
+
+			 }
+
+	 
+
+
+hr {color:  #603090; }
+
+
+
+
+			  
