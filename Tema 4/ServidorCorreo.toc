@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\IeC {\'I}ndice general}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}Preliminares}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Configuraci\IeC {\'o}n de red est\IeC {\'a}tica}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Instalaci\IeC {\'o}n de Apache y PHP}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Instalaci\IeC {\'o}n de zip/unzip, Git y composer}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Servidor Apache, Bind9 y zona directa/inversa}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Modificaci\IeC {\'o}n de \textit {/etc/php/7.2/apache2/php.ini}}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Comprobamos los ficheros de zona}{6}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Reiniciamos Bind y a\IeC {\~n}adimos las reglas}{6}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}MySQL}{6}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Postfix}{7}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}S\-nail}{8}{subsection.1.10}
+\contentsline {section}{\numberline {2}Enviamos correos}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Creamos los usuarios}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Courier}{10}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Roundcube}{10}{subsection.2.3}
